@@ -13,9 +13,9 @@ The data was obtained from the Coursera Getting and Cleaning Data course assignm
   8. test/subject_test.txt          subject ids for the test dataset
 
 Brief script explainaintion
-1. the script first checks to see if the necessary package "reshape2" is installed
-2. Secondly, reads all required data files and labels the different datasets
-3. Using the activity_id and subject_id the datasets are merged into a single dataframe
-4. then using functions the means and standard deviations are extracted
-5. merge the activity names with means/std dataset to get a single dataset with activity names
-6. Lastly, the dataset is converted and ordered into a new tidy dataset by the name "tidy_data.txt"
+  1. the script first checks to see if the necessary package "reshape2" is installed
+  2. Secondly, reads all required data files and labels the different datasets
+  3. Using the activity_id and subject_id the datasets are merged into a single dataframe
+  4. then using functions the means and standard deviations are extracted
+  5. merge the activity names with means/std dataset to get a single dataset with activity names
+  6. Lastly, the dataset is converted and ordered into a new tidy dataset by the name "tidy_data.txt"
