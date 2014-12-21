@@ -1,6 +1,6 @@
 ##check for required packages
 if (!("reshape2" %in% rownames(installed.packages())) ) {
-  print("Please install required package\"reshape2\" before procedding")
+  print("Please install required package\"reshape2\" before proceeding")
 }else {
       library(reshape2)
 
